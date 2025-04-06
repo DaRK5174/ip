@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e24d8cb8121bd974a9b40304a7812881
+guid: e981913bd7b7a5d4d82c9655b017151b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,75 +129,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled 03-29-2025 01-46-47_0
+      name: Untitled 03-28-2025 04-17-42_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 768
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0caac0b6c76e7514999c83ec2f7eec03
-      internalID: 1062495843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled 03-29-2025 01-46-47_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57c76f51d7ac19841abb6232fe23d0db
-      internalID: -196820362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled 03-29-2025 01-46-47_2
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4669a2483a3d6048a36fd077be225c5
-      internalID: -2004973690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled 03-29-2025 01-46-47_3
-      rect:
-        serializedVersion: 2
-        x: 512
         y: 512
-        width: 512
+        width: 1024
         height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -206,8 +143,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ccbdade6f5cc294a8b49408ce2e03e6
-      internalID: -442197294
+      spriteID: 3ca16d87a8564bb4db39b2659facdefe
+      internalID: 1249459549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled 03-28-2025 04-17-42_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbf579716fcfbd4d9ba0637c2f8c32d
+      internalID: -726743596
       vertices: []
       indices: 
       edges: []
@@ -223,10 +181,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Untitled 03-29-2025 01-46-47_0: 1062495843
-      Untitled 03-29-2025 01-46-47_1: -196820362
-      Untitled 03-29-2025 01-46-47_2: -2004973690
-      Untitled 03-29-2025 01-46-47_3: -442197294
+      Untitled 03-28-2025 04-17-42_0: 1249459549
+      Untitled 03-28-2025 04-17-42_1: -726743596
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
