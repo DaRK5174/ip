@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 7422773119761425551}
   - component: {fileID: 1064988545111431507}
   m_Layer: 0
-  m_Name: stucan
+  m_Name: cup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
