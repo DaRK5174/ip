@@ -27,6 +27,6 @@ public class ChekNextLevel : MonoBehaviour
 
     public void LoadLevel(int LevelIndex)
     {
-        SceneManager.LoadScene(LevelIndex);
+       // SceneManager.LoadScene(LevelIndex);
     }
 }
