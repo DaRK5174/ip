@@ -27,7 +27,6 @@ public class ChekNextLevel : MonoBehaviour
 
     public void LoadLevel(int LevelIndex)
     {
-        anim.SetTrigger("NewLevel");
-        //SceneManager.LoadScene(LevelIndex);
+        SceneManager.LoadScene(LevelIndex);
     }
 }
