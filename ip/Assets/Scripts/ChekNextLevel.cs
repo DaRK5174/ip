@@ -11,8 +11,8 @@ public class ChekNextLevel : MonoBehaviour
     private Animator anim;
     void Start()
     {
-        LevelUnlock = PlayerPrefs.GetInt("Levels", 1);
         anim = GetComponent<Animator>();
+        LevelUnlock = PlayerPrefs.GetInt("Levels", 1);
 
         for(int i = 0; i < menu_Buttons.Length; i++)
         {
@@ -27,6 +27,8 @@ public class ChekNextLevel : MonoBehaviour
 
     public void LoadLevel(int LevelIndex)
     {
-       // SceneManager.LoadScene(LevelIndex);
+        anim.SetTrigger("Scene");
+        SceneManager.LoadScene(LevelIndex);
     }
+
 }

@@ -6535,7 +6535,7 @@ Animator:
   m_GameObject: {fileID: 253629425}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b00cbc1cc0a18554c9902bda18c4ef92, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8ffc12b6cd64c8a419ca5f60ab767654, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -8527,7 +8527,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.3529412, g: 0.30588236, b: 0.19607845, a: 0}
+  m_BackGroundColor: {r: 0.32156864, g: 0.44705886, b: 0.34509805, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -9995,6 +9995,7 @@ MonoBehaviour:
   - {fileID: 1940260365}
   - {fileID: 807779146}
   - {fileID: 169309095}
+  anim: {fileID: 253629430}
 --- !u!1 &1261735921
 GameObject:
   m_ObjectHideFlags: 0
@@ -10014,7 +10015,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1261735922
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11759,7 +11760,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: da54f9c7628194247accdd471f8cd66a, type: 3}
-  m_Color: {r: 0.87169814, g: 0.5726244, b: 0.29440364, a: 1}
+  m_Color: {r: 0.7931193, g: 0.83396226, b: 0.520833, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

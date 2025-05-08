@@ -25,5 +25,6 @@ public class Menu_Button : MonoBehaviour
     public void Perehod()
     {
         anim.SetTrigger("Scene");
+        anim.SetTrigger("NewLevel");
     }
 }
