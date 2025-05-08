@@ -156,7 +156,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.00000029644423, y: -0.50000006}
-  m_ConnectedAnchor: {x: -140.39069, y: 0.000005603072}
+  m_ConnectedAnchor: {x: 170.28745, y: 104.200005}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -246,8 +246,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617543592}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8, y: 280.78128, z: 1}
+  m_LocalPosition: {x: 282.6, y: 104.2, z: 0}
+  m_LocalScale: {x: -1.9938599, y: 224.62503, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
