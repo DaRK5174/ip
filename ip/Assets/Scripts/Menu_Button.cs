@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Menu_Button : MonoBehaviour
 {
-    public string sceneName;
+    public string[] sceneName;
     private Animator anim;
 
     private void Start()
@@ -14,9 +14,19 @@ public class Menu_Button : MonoBehaviour
     }
     public void OnClickPlay()
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(sceneName[0]);
     }
-   
+
+    public void OnClickRepit()
+    {
+        SceneManager.LoadScene(sceneName[1]);
+    }
+
+    public void OnClickNext()
+    {
+        SceneManager.LoadScene(sceneName[2]);
+    }
+
     public void OnClickExit()
     {
         Application.Quit();
@@ -26,5 +36,13 @@ public class Menu_Button : MonoBehaviour
     {
         anim.SetTrigger("Scene");
         anim.SetTrigger("NewLevel");
+    }
+    public void PerehodRepit()
+    {
+        anim.SetTrigger("Repit");
+    }
+    public void PerehodNext()
+    {
+        anim.SetTrigger("Next");
     }
 }

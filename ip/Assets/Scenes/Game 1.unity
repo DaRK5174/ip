@@ -601,7 +601,7 @@ ParticleSystem:
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
-        ctime1: 49151
+        ctime1: 19661
         ctime2: 63916
         ctime3: 0
         ctime4: 0
@@ -5293,11 +5293,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3252228375975066657, guid: f3fa1e084d6e3a647acf8befffdd9c43, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.4648585
+      value: 5.54
       objectReference: {fileID: 0}
     - target: {fileID: 3252228375975066657, guid: f3fa1e084d6e3a647acf8befffdd9c43, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.0102713
+      value: -2.010271
       objectReference: {fileID: 0}
     - target: {fileID: 3252228375975066657, guid: f3fa1e084d6e3a647acf8befffdd9c43, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5415,7 +5415,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1289769767}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1443269171}
+        m_TargetAssemblyTypeName: Menu_Button, Assembly-CSharp
+        m_MethodName: PerehodNext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1289769767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5649,7 +5661,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158c11c3b869ca24e80aa2863f703bd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: MenuGame
+  sceneName:
+  - MenuGame
+  - Game 1
+  - Game 2
 --- !u!95 &1443269172
 Animator:
   serializedVersion: 5
@@ -6253,7 +6268,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1852964461}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1443269171}
+        m_TargetAssemblyTypeName: Menu_Button, Assembly-CSharp
+        m_MethodName: PerehodRepit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1852964461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6460,3 +6487,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000528446}
   m_CullTransparentMesh: 1
+--- !u!1 &2041447487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2947915760441011366, guid: f3fa1e084d6e3a647acf8befffdd9c43, type: 3}
+  m_PrefabInstance: {fileID: 1186524384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2041447488
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041447487}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e2d753bd94dba884ea893b2b088a9395, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
