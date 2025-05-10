@@ -8,10 +8,12 @@ public class SettingPad : MonoBehaviour
     void Start()
     {
         anim1 = GetComponent<Animator>();
+        
     }
 
     public void onSetting()
     {
         anim1.SetTrigger("Setting");
+        
     }
 }
