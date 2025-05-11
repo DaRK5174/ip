@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class PlayGame : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Rigidbody2D Player;
+    private void GetMouseButtonDown()
     {
-        
+        Player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
