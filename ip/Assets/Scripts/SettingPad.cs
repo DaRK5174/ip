@@ -6,6 +6,7 @@ public class SettingPad : MonoBehaviour
 {
     private bool paus=true;
     private Animator anim1;
+    public PlayGame_Tea PlayGame_tea;
     void Start()
     {
         anim1 = GetComponent<Animator>();

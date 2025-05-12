@@ -12,10 +12,7 @@ public class PlayGame_Tea : SettingPad
 
     void Update()
     {
-        if(Time.timeScale == 0)
-        {
-            return;
-        }
+
         Vector3 ropeDirection = package.position - mCrep.position;
         Vector3 perpendicular = new Vector3(-ropeDirection.y, ropeDirection.x).normalized;
 
