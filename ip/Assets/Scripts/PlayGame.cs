@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class PlayGame : MonoBehaviour
 {
-    private Rigidbody2D Player;
-    private void GetMouseButtonDown()
-    {
-        Player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-    }
+    public Transform package; // Пакетик
+    public Transform anchor; // Точка крепления
 
+    void Update()
+    {
+        Vector3 ropeDirection = package.position - anchor.position; 
+        Vector3 perpendicular = new Vector3(-ropeDirection.y, ropeDirection.x).normalized;
+
+        Debug.DrawLine(anchor.position, anchor.position + perpendicular, Color.red); 
+    }
 }

@@ -14,16 +14,28 @@ public class Menu_Button : MonoBehaviour
     }
     public void OnClickPlay()
     {
+        if (Time.timeScale == 0)
+        {
+            Time.timeScale = 1;
+        }
         SceneManager.LoadScene(sceneName[0]);
     }
 
     public void OnClickRepit()
     {
+        if (Time.timeScale == 0)
+        {
+            Time.timeScale = 1;
+        }
         SceneManager.LoadScene(sceneName[1]);
     }
 
     public void OnClickNext()
     {
+        if (Time.timeScale == 0)
+        {
+            Time.timeScale = 1;
+        }
         SceneManager.LoadScene(sceneName[2]);
     }
 
