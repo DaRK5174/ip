@@ -25,10 +25,5 @@ public class ChekNextLevel : MonoBehaviour
         }
     }
 
-    public void LoadLevel(int LevelIndex)
-    {
-        anim.SetTrigger("Scene");
-        SceneManager.LoadScene(LevelIndex);
-    }
 
 }
