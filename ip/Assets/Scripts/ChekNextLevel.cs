@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ChekNextLevel : MonoBehaviour
 {
-    public static int LevelUnlock;
+    int LevelUnlock;
     public Button[] menu_Buttons;
     private Animator anim;
     void Start()

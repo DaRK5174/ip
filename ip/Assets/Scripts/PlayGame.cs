@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayGame : ChekNextLevel
+public class PlayGame : MonoBehaviour
 {
-    public static bool win = false;
-    private Animator anim;
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        win = true;
-        menu_Buttons[2].interactable = true;
-    }
+    public Transform package; // Пакетик
+    public Transform anchor; // Точка крепления
 
-    void Start()
+    void Update()
     {
+        Vector3 ropeDirection = package.position - anchor.position; 
+        Vector3 perpendicular = new Vector3(-ropeDirection.y, ropeDirection.x).normalized;
+
+        Debug.DrawLine(anchor.position, anchor.position + perpendicular, Color.red); 
     }
 }
