@@ -7,6 +7,7 @@ public class Menu_Button : MonoBehaviour
 {
     public string[] sceneName;
     private Animator anim;
+    
 
     private void Start()
     {
