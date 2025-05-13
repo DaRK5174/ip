@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SettingPad : MonoBehaviour
+public class SettingPad : PlayGame
 {
     private bool paus=true;
     private Animator anim1;
     public PlayGame_Tea PlayGame_tea;
+    private int wincheck = 0;
     void Start()
     {
+        bool win = PlayGame.win;
         anim1 = GetComponent<Animator>();
     }
 
@@ -28,6 +30,17 @@ public class SettingPad : MonoBehaviour
         {
             Time.timeScale = 1;
             paus = true;
+        }
+    }
+
+    private void Update()
+    {
+        if (win == true && wincheck==0)
+        {
+            
+            wincheck = 1;
+            anim1.SetTrigger("Win");
+
         }
     }
 }

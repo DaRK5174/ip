@@ -25,6 +25,8 @@ public class PlayGame_Tea : SettingPad
             rb.AddForce(perpendicular * Mathf.Sin(Time.time) * fors);
 
             //cxqaB  rb.velocity *= fors;
+            Debug.Log(ropeDirection.x);
+            Debug.Log(perpendicular.x);
         }
     }
 }

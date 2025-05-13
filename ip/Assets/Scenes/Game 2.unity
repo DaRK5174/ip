@@ -6502,6 +6502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa25a9ef3243a44292e01d372e8acf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayGame_tea: {fileID: 0}
 --- !u!114 &1675597049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6616,10 +6617,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1.5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 0.5
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -7027,6 +7028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90446ee519ef70c41a1ee0f7de04a4e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayGame_tea: {fileID: 0}
   rb: {fileID: 1295279735}
   mCrep: {fileID: 1746316946}
   package: {fileID: 1295279730}
